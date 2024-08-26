@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: none;
+    padding: none;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 32, 87);
+    color: white;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero{
+    display: flex;
+    height: 300px;
+    padding: 50px;
+}
+
+.left_hero{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.right_hero{
+    border: solid black;
+    background-color: grey;
+    flex-basis: 50%;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.sign_btn{
+    width: fit-content;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.img_container{
+    border: solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: solid blue;
+}
+
+.main_element{
+    width: 100px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.hero_section{
+    background-color: rgb(32, 32, 87);
+}
+
+.h1_center{
+    text-align: center;
+}
+
+.testimonial_section{
+    background-color: grey;
+}
+
+.testimonial{
+    padding: 5vh 25vw;
+}
+
+.CTA {
+
+    background-color: blue;
+    height: 5%;
+    width: 75%;
+    padding: 5vh 20vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer_text{
+    color: white;
+    background-color: rgb(32, 32, 87
+    );
+}
